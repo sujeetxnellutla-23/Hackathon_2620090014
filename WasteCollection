@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class WasteCollection {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Waste Collection in Kg :");
+        double WasteCollected = sc.nextDouble();
+        if (WasteCollected >= 100){
+            System.err.println("Collection Target Acehived");
+        } else { 
+            System.out.println("More Waste Collection Required");
+        }
+
+    }
+    
+}
